@@ -4,6 +4,7 @@
 1. 完成rsa加密算法的初始登陆，代替之前的selenium
 2. 连接数据库，完成多用户打卡
 3. 将定时，发送邮件写入程序中，摆脱系统依赖
+> maybe can use github Actions to promiss privacy
 ## 目前功能   //疫情期间不允许请假了
 1. 每日健康打卡
 2. 每日请销假
