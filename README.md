@@ -1,18 +1,19 @@
 
-# 安徽农业大学健康打卡(2022.9.20已寄，2022.9.30恢复使用)
-## TODO
-1. 完成rsa加密算法的初始登陆，代替之前的selenium
-2. 连接数据库，完成多用户打卡
-3. 将定时，发送邮件写入程序中，摆脱系统依赖
-> maybe can use github Actions to promiss privacy
-## 目前功能   //疫情期间不允许请假了
-1. 每日健康打卡
-2. 每日请销假
+# 安徽农业大学健康打卡
 ## 食用方法
 1. 安装几个依赖库
 2. 安装chrome版driver放在/opt/google/chrome/chromedriver
 3. 填上ll列表 学号密码姓名邮箱
 > ~~蹲个大佬pull个rsa加密解决方法~~
+## 目前功能   //疫情期间不允许请假了
+1. 每日健康打卡
+2. 每日请销假
+## TODO
+1. 完成rsa加密算法的初始登陆，代替之前的selenium
+2. 连接数据库，完成多用户打卡
+3. 将定时，发送邮件写入程序中，摆脱系统依赖
+> maybe can use github Actions to promiss privacy
+
 ## 免责声明
 ### 下载, 使用脚本时均视为已经仔细阅读并完全同意以下条款:
 
