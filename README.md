@@ -13,7 +13,8 @@
 2. 连接数据库，完成多用户打卡
 3. 将定时，发送邮件写入程序中，摆脱系统依赖
 > maybe can use github Actions to promiss privacy
-
+> split yaml for usr/pw
+> catch except and restart
 ## 免责声明
 ### 下载, 使用脚本时均视为已经仔细阅读并完全同意以下条款:
 
