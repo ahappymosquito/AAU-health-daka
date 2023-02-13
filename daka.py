@@ -67,15 +67,18 @@ def getInfo(cookie,sheng,shi,qu,code):
     'sjdfgbz':'全天',
     'sjdbz':dqrq,
     'tw':'37.0',
-    'tmda1':'否',
-    'tmda2':'否',
-    'dqszdmc':sheng+shi+qu,
-    'tmda6':'',
-    'bz':'健康',
-    'ydqszsfmc':sheng,
-    'ydqszsmc':shi,
-    'ydqszxmc':qu,
-    'dqszddm':code
+    'tmda1':'是',
+    'tmda2':'是',
+    'tmda3':'否',
+    # 'dqszdmc':sheng+shi+qu,
+    'tmda5':'良好',
+    'tmda6':'否',
+    'tmda7':'否',
+    'bz':'',
+    # 'ydqszsfmc':sheng,
+    # 'ydqszsmc':shi,
+    # 'ydqszxmc':qu,
+    # 'dqszddm':code
     }
     return postdata
 
