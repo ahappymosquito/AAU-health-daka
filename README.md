@@ -7,7 +7,12 @@
 1. 安装几个依赖库
 2. 安装chrome版driver放在/opt/google/chrome/chromedriver
 3. 填上ll列表 学号密码姓名邮箱
+4. 使用crontab定时任务 
 > ~~蹲个大佬pull个rsa加密解决方法~~
+
+![avatar](/xsLogin.png)
+![avatar](/tbJkxx.png)
+
 ## 目前功能   
 1. 每日健康打卡
 2. 每日请销假 //~~疫情期间不允许请假了~~放开喽
