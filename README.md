@@ -12,12 +12,12 @@
 
 <img src="/xsLogin.png"
      alt="null"
-     style="zoom:50%"/>
-<center><p>http://fresh.ahau.edu.cn/yxxt-v5/web/xsLogin/login.zf;jsessionid=DD9876ECE15507F1DEA85CDD4F7FD67E?rdt=web%2Fjkxxtb%2FtbJkxx</p></center>
+     style="zoom:20%"/>
+<center><p>http://fresh.ahau.edu.cn/yxxt-v5/web/xsLogin/login.zf?rdt=web%2Fjkxxtb%2FtbJkxx</p></center>
 
 <img src="/tbJkxx.png"
      alt="null"
-     style="zoom:50%"/>
+     style="zoom:20%"/>
 <center><p>http://fresh.ahau.edu.cn/yxxt-v5/web/jkxxtb/tbJkxx.zf</p></center>
 
 ## 目前功能   
