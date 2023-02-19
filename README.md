@@ -10,9 +10,6 @@
 4. 使用crontab定时任务 
 > ~~蹲个大佬pull个rsa加密解决方法~~
 
-![http://fresh.ahau.edu.cn/yxxt-v5/web/xsLogin/login.zf;jsessionid=DD9876ECE15507F1DEA85CDD4F7FD67E?rdt=web%2Fjkxxtb%2FtbJkxx](/xsLogin.png)
-![http://fresh.ahau.edu.cn/yxxt-v5/web/jkxxtb/tbJkxx.zf](/tbJkxx.png)
-
 <img src="/xsLogin.png"
      alt="null"
      style="zoom:50%"/>
