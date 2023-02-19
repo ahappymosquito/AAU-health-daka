@@ -13,6 +13,16 @@
 ![http://fresh.ahau.edu.cn/yxxt-v5/web/xsLogin/login.zf;jsessionid=DD9876ECE15507F1DEA85CDD4F7FD67E?rdt=web%2Fjkxxtb%2FtbJkxx](/xsLogin.png)
 ![http://fresh.ahau.edu.cn/yxxt-v5/web/jkxxtb/tbJkxx.zf](/tbJkxx.png)
 
+<img src="/xsLogin.png"
+     alt="null"
+     style="zoom:50%"/>
+<center><p>http://fresh.ahau.edu.cn/yxxt-v5/web/xsLogin/login.zf;jsessionid=DD9876ECE15507F1DEA85CDD4F7FD67E?rdt=web%2Fjkxxtb%2FtbJkxx</p></center>
+
+<img src="/tbJkxx.png"
+     alt="null"
+     style="zoom:50%"/>
+<center><p>http://fresh.ahau.edu.cn/yxxt-v5/web/jkxxtb/tbJkxx.zf</p></center>
+
 ## 目前功能   
 1. 每日健康打卡
 2. 每日请销假 //~~疫情期间不允许请假了~~放开喽
