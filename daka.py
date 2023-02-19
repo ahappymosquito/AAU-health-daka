@@ -20,12 +20,22 @@ def getCookie(user,pw,chrome_options):
     # wd= webdriver.Chrome('C:\chromedriver_win32\chromedriver.exe')
     # driver.find_element(by=By.ID, value='toolbar-search-input').send_keys('python')
     wd.get('http://fresh.ahau.edu.cn/yxxt-v5/web/xsLogin/login.zf?rdt=web%2Fjkxxtb%2FtbJkxx')
+    # wd.get('')
     wd.find_element(by=By.ID,value='zh').send_keys(user)
     wd.find_element(by=By.ID,value='mm').send_keys(pw)
     wd.find_element(by=By.ID,value='dlan').click()
     # time.sleep(2)
     # wd.swich_to_alert().accept()
-    cookie=wd.get_cookies()[0]['value']
+    
+    # 新版cookie
+    # [{'domain': 'fresh.ahau.edu.cn', 'expiry': 1708250220, 'httpOnly': True, 
+    #   'name': 'cookiesession1', 'path': '/', 'secure': False, 
+    #   'value': '678B28D2CB1B064C0D9592B680152F32'}, 
+    #   {'domain': 'fresh.ahau.edu.cn', 'httpOnly': True, 'name': 'JSESSIONID', 
+    #    'path': '/yxxt-v5', 'secure': False, 'value': '26173E159644A9EB81EF620574280845'}]
+
+    cookie=wd.get_cookies()[0]['value'],wd.get_cookies()[1]['value']
+    print(cookie)
     wd.quit()
     return cookie
 
@@ -36,12 +46,12 @@ def getInfo(cookie,sheng,shi,qu,code):
     'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
     'Cache-Control': 'no-cache',
     'Connection': 'keep-alive',
-    'Cookie': 'JSESSIONID='+cookie,
+    'Cookie':  'JSESSIONID='+cookie[1]+';'+'cookiesession1='+cookie[0],
     'Host': 'fresh.ahau.edu.cn',
     'Pragma': 'no-cache',
     'Referer': 'http://fresh.ahau.edu.cn/yxxt-v5/web/xsLogin/login.zf?rdt=web%2Fjkxxtb%2FtbJkxx',
     'Upgrade-Insecure-Requests': '1',
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.49'
+    'User-Agent':  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
     }
     response=requests.get("http://fresh.ahau.edu.cn/yxxt-v5/web/jkxxtb/tbJkxx.zf",headers=headers)
     # print(response.text)
