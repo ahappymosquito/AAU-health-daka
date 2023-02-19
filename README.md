@@ -17,7 +17,7 @@
 
 <img src="/tbJkxx.png"
      alt="null"
-     style="zoom:20%"/>
+     style="zoom:1%"/>
 <center><p>http://fresh.ahau.edu.cn/yxxt-v5/web/jkxxtb/tbJkxx.zf</p></center>
 
 ## 目前功能   
